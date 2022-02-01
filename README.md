@@ -17,4 +17,9 @@ new_york_city.csv
 washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Udacity data science course link:
+https://www.udacity.com/course/programming-for-data-science-nanodegree--nd104
+Data for project provided by Motivate:
+https://www.motivateco.com/
+Data file and python base template:
+https://video.udacity-data.com/topher/2018/August/5b7b7aca_bikeshare-2/bikeshare-2.zip
