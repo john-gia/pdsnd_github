@@ -7,11 +7,11 @@
 Bikeshare Python Project
 
 ### Description
-Bikeshare.py uses Python to investigate U.S. bikeshare data. The code provides an
-interactive environment where the user chooses data and various filters to analyse and calculate statistics for the available datasets.
+bikeshare.py uses Python to investigate U.S. bikeshare data. The code provides an
+interactive environment where the user chooses data and various filters to analyse and calculate statistics for the available datasets in Chicago, New York City and Washington.
 
 ### Files used
-Bikeshare(final).py
+bikeshare.py
 chicago.csv
 new_york_city.csv
 washington.csv
