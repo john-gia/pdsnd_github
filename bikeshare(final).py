@@ -181,6 +181,7 @@ def time_stats(df):
 
     print("Most common Travel Start: {:02d}:00 hrs".format(h_val))
 
+    # Calculate code run time and display results.
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*80)
 
@@ -208,6 +209,7 @@ def station_stats(df):
 
     print("\nMost frequent combination(s) of Start Station and End Station: \n\n{}".format(mc_trip))
 
+    # Calculate code run time and display results.
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*80)
 
@@ -231,6 +233,7 @@ def trip_duration_stats(df):
 
     print("Mean Travel Time:  {:.2F} mins".format(mean_t_time))
 
+    # Calculate code run time and display results.
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*80)
 
@@ -272,6 +275,7 @@ def user_stats(df):
     else:
         print("\nNo Birth Year data available in this dataset.")
 
+    # Calculate code run time and display results.
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*80)
 
