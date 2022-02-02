@@ -310,6 +310,7 @@ def main():
         city, month, day = get_filters()
         df = load_data(city, month, day)
 
+        # Display user inputs for City, Day and Month chosen by user.
         print("Data Analysis for:\n City: {} \nMonth: {} \n  Day: {}".format(city.title(), month.title(), day.title()))
         print('-'*80)
 
@@ -319,7 +320,7 @@ def main():
         user_stats(df)
         raw_data(df)
 
-
+        # Ask user if they would like to restart and run another analysis.
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
