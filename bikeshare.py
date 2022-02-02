@@ -280,7 +280,13 @@ def user_stats(df):
     print('-'*80)
 
 def raw_data(df):
-    """Displays 5 rows of raw data at a time if requested by user."""
+    """
+    Identifies the total number of rows related to the dataset then
+    asks the user if they would like to view 5 rows of raw data.
+
+    Output will continues to display additional 5 rows of raw data if user chooses
+    to view an additional data.
+    """
 
     total_rows = len(df)
 
